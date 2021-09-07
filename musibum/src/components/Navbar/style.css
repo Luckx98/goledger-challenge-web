@@ -1,14 +1,54 @@
 .navBar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 7rem;
-    background-color: aqua;
-    align-items: center;
-    justify-content: center;
+    border-radius: 0.9rem;
+
+    background:linear-gradient(#a570da,transparent);
+    background-color:#eeb0cf /*this your primary color*/
 }
 
-.navBar img {
-    width: 80px;
-    height: 80px;
-    box-shadow: 2rem;
+.logoNavBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    height: 4rem;
+    margin: 2rem;
+    margin-left: 3rem;
+
+}
+
+.logoNavBar h2 {
+    color: (#000000, bolder);
+    margin-left: 1rem;
+    font-size: 3vh;
+ 
+}
+
+.iconNavBar {
+    width: 2rem;
+    height: 2rem; 
+
+    color: #000000 ;
+}
+
+.buttonNavBar {
+    width: 9.125rem;
+    height: 3rem;
+    margin-right: 2rem;
+
+    background: #d6a3e6;
+    border: 1- sold #000000;
+    border-radius: 0.775rem;
+
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+.buttonNavBar:hover {
+    filter: brightness(0.95);
 }

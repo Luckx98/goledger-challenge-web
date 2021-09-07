@@ -1,3 +1,4 @@
+import { FiMusic } from 'react-icons/fi';
 import React from 'react';
 
 import './style.css';
@@ -5,8 +6,13 @@ import './style.css';
 function NavBar() {
     return (
         <div className="navBar">
-            <img alt="Log" src="../../assets/logo.svg"/>
-            <h3>GoLedger Challenge</h3>
+            <div className="logoNavBar">
+                <FiMusic className="iconNavBar" />
+                <h2 bolder > GoLedger Challenge</h2>
+            </div>
+            <button className="buttonNavBar">
+                Cadastrar
+            </button>
         </div>
     );
 }
